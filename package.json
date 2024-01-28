@@ -1,15 +1,16 @@
 {
-  "name": "components-workspace",
-  "version": "0.0.0",
+  "name": "imported-components",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build && cd dist && npm pack",
+    "start": "ng serve -o --port=4200",
+    "build:lib:dev": "ng build --configuration development && cd dist/components && npm pack",
+    "build:lib:prod": "npx prettier --write . && ng build --configuration production && cd dist/components && npm pack",
     "prettier": "npx prettier --write .",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^16.2.0",
     "@angular/common": "^16.2.0",
