@@ -1,18 +1,20 @@
 import { NgModule } from '@angular/core';
 import { ComponentsComponent } from './components.component';
-import { ComponentsRoutingModule } from './components-routing.module';
+import { FooterComponent, SaleBannerComponent } from '../public-api';
 
 
 
 @NgModule({
   declarations: [
-    ComponentsComponent
+    ComponentsComponent,
+    FooterComponent,
+    SaleBannerComponent
   ],
-  imports: [
-    ComponentsRoutingModule
-  ],
+  imports: [],
   exports: [
-    ComponentsComponent
+    ComponentsComponent,
+    FooterComponent,
+    SaleBannerComponent
   ]
 })
 export class ComponentsModule { }

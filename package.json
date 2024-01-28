@@ -1,15 +1,15 @@
 {
-  "name": "@xRzy/components",
+  "name": "@jamespatterson-feswe/components",
   "“repository”": {
     "type": "git",
     "url": "git://github.com/jamespatterson-feswe/components.git"
   },
-  "version": "0.1.0",
+  "version": "0.2.18",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve -o --port=4200",
+    "start": "ng serve components -o --port=4200",
     "build:lib:dev": "ng build --configuration development && cd dist/components && npm pack",
-    "build:lib:prod": "ng lint && ng test --browsers ChromeHeadless && ng build --configuration production && cd dist/components && npm pack",
+    "build:lib:prod": "ng lint && ng build --configuration production && cd dist/components && npm pack",
     "prettier": "npx prettier --write .",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",

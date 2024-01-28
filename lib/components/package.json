@@ -1,6 +1,6 @@
 {
-  "name": "components",
-  "version": "0.0.1",
+  "name": "@jamespatterson-feswe/components",
+  "version": "0.2.18",
   "peerDependencies": {
     "@angular/common": "^16.2.0",
     "@angular/core": "^16.2.0"
