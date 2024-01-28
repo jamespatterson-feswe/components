@@ -3,7 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "fs-components": ["dist/fs-components"],
+      "components": [
+        "dist/components"
+      ]
     },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",

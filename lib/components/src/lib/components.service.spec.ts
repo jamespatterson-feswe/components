@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { FsComponentsService } from './fs-components.service';
+import { ComponentsService } from './components.service';
 
-describe('FsComponentsService', () => {
-  let service: FsComponentsService;
+describe('ComponentsService', () => {
+  let service: ComponentsService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(FsComponentsService);
+    service = TestBed.inject(ComponentsService);
   });
 
   it('should be created', () => {
