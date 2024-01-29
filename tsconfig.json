@@ -3,9 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "components": [
-        "dist/components"
-      ]
+      "components": ["dist/components"],
     },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",

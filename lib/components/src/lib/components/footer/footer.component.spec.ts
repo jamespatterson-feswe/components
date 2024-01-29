@@ -3,10 +3,12 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { FooterComponent } from './footer.component';
 
 describe('FooterComponent', () => {
-  beforeEach(() => TestBed.configureTestingModule({
-    imports: [RouterTestingModule],
-    declarations: [FooterComponent]
-  }));
+  beforeEach(() =>
+    TestBed.configureTestingModule({
+      imports: [RouterTestingModule],
+      declarations: [FooterComponent],
+    }),
+  );
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(FooterComponent);

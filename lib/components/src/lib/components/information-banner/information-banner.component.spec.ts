@@ -3,10 +3,12 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { InformationBannerComponent } from './information-banner.component';
 
 describe('InformationBannerComponent', () => {
-  beforeEach(() => TestBed.configureTestingModule({
-    imports: [RouterTestingModule],
-    declarations: [InformationBannerComponent]
-  }));
+  beforeEach(() =>
+    TestBed.configureTestingModule({
+      imports: [RouterTestingModule],
+      declarations: [InformationBannerComponent],
+    }),
+  );
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(InformationBannerComponent);

@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git://github.com/jamespatterson-feswe/components.git"
   },
-  "version": "0.2.20",
+  "version": "0.2.26",
   "scripts": {
     "ng": "ng",
     "start": "ng serve components -o --port=4200",
