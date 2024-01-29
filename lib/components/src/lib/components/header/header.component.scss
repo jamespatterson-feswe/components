@@ -13,5 +13,11 @@
 
   .link {
     margin: 0 5px;
+    text-decoration: none;
+
+    &:hover {
+      color: #CC0C2F;
+      text-shadow: 1px 1px #00174f;
+    }
   }
 }
