@@ -1,8 +1,17 @@
 .header {
-  height: 10vh;
-  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  color: #fff;
-  text-shadow: #000 1px 0 10px;
-  background-color: #00174f;
+  height: 10vh;
+  width: 100%;
+
+  color: #00174f;
+  text-shadow: 1px 1px #23272F;
+  background-color: #fff;
+
+  .link {
+    margin: 0 5px;
+  }
 }

@@ -1,8 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'lib-footer',
-  templateUrl: './footer.component.html',
+  template: `
+    <section class="footer">
+      {{ licensing }}
+    </section>
+  `,
   styleUrls: ['./footer.component.scss'],
 })
-export class FooterComponent {}
+export class FooterComponent {
+  @Input({ required: true }) licensing!: string;
+}
