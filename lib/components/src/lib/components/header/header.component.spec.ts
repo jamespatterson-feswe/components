@@ -1,17 +1,17 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { InformationBannerComponent } from './information-banner.component';
+import { HeaderComponent } from './header.component';
 
-describe('InformationBannerComponent', () => {
+describe('HeaderComponent', () => {
   beforeEach(() =>
     TestBed.configureTestingModule({
       imports: [RouterTestingModule],
-      declarations: [InformationBannerComponent],
+      declarations: [HeaderComponent],
     }),
   );
 
   it('should create the app', () => {
-    const fixture = TestBed.createComponent(InformationBannerComponent);
+    const fixture = TestBed.createComponent(HeaderComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
